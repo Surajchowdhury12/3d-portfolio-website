@@ -59,7 +59,7 @@ const Education = () => {
             marginBottom: "40px",
           }}
         >
-          My education has been a journey of self-discovery and growth. My
+          My education has been a foundation of growth and exploration, shaping my skills and aspirations. My
           educational details are as follows.
         </Desc>
 

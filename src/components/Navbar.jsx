@@ -132,7 +132,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">GeeksForGeeks</NavLogo>
+        <NavLogo to="/">Suraj Chowdhury</NavLogo>
 
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
           <MenuRounded style={{ color: "inherit" }} />
@@ -144,6 +144,8 @@ const Navbar = () => {
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#Training">Trainings</NavLink>
+
         </NavItems>
 
         {isOpen && (
@@ -162,6 +164,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
+            </NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Training">
+              Trainings
             </NavLink>
             <GithubButton
               href={Bio.github}

@@ -2,8 +2,8 @@ import React from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import styled from "styled-components";
-import { experiences } from "../../data/constants";
-import ExperienceCard from "../cards/ExperienceCard";
+import { training } from "../../data/constants";
+import TrainingCard from "../cards/TrainingCard";
 
 const Container = styled.div`
   display: flex;
@@ -49,31 +49,30 @@ const Desc = styled.div`
   }
 `;
 
-const Experience = () => {
-  return (
-    <Container id="Experience">
-      <Wrapper>
-        <Title>Experience</Title>
-        <Desc
-          style={{
-            marginBottom: "40px",
-          }}
-        >
-          My work experience as a software engineer and working on different
-          companies and projects  and as an open source contributor.
-        </Desc>
+const Training = () => {
+    return (
+        <Container id="Training">
+            <Wrapper>
+                <Title>Trainings</Title>
+                <Desc
+                    style={{
+                        marginBottom: "40px",
+                    }}
+                >
+                    Trainings are the keys to keep growing ethically and intelligently Here are my trainings I have done so far.
+                </Desc>
 
-        <VerticalTimeline>
-          {experiences.map((experience, index) => (
-            <ExperienceCard
-              key={`experience-${index}`}
-              experience={experience}
-            />
-          ))}
-        </VerticalTimeline>
-      </Wrapper>
-    </Container>
-  );
+                <VerticalTimeline>
+                    {training.map((training, index) => (
+                        <TrainingCard
+                            key={`training-${index}`}
+                            training={training}
+                        />
+                    ))}
+                </VerticalTimeline>
+            </Wrapper>
+        </Container>
+    );
 };
 
-export default Experience;
+export default Training;
