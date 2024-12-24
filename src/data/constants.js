@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual with a passion for learning and an unwavering commitment to delivering high-quality results. My growth mindset and adaptability empower me to tackle new challenges with confidence and enthusiasm.",
   github: "https://github.com/Surajchowdhury12",
   resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
+    "https://drive.google.com/file/d/1WRqk8uCDhNKWioLsrg5fJr2jGlZ6jhyE/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/suraj-chowdhury/",
   twitter: "https://x.com/SURAJCh122",
   instagram: "https://www.instagram.com/isurajchowdhury/",
