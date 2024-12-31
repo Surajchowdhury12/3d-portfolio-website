@@ -410,6 +410,27 @@ export const projects = [
     github: "https://github.com/Surajchowdhury12/",
     webapp: "https://github.com/Surajchowdhury12/",
   },
+  {
+    id: 3,
+    title: " Food Delivery App - MERN",
+    date: "Nov 2024 - Dec 2024",
+    description:
+      "Food Delivery app that stores all dishes and user can sign in and signup create account and they can order food , save to cart, and choose favorite food they can track ordered food and much more ",
+    image:
+      "https://res.cloudinary.com/dvshmozwc/image/upload/v1735666467/Screenshot_2024-12-31_230200_b2fgza.png",
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Rest API",
+      "JWT",
+      "bycrypt"
+    ],
+    category: "web app",
+    github: "https://github.com/Surajchowdhury12/FoodDelivery-MERN",
+    webapp: "https://github.com/Surajchowdhury12/FoodDelivery-MERN",
+  },
 
 ];
 
