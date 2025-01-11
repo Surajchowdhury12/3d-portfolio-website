@@ -3,6 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/constants";
 import { MenuRounded } from "@mui/icons-material";
+import { FaStar } from "react-icons/fa";
 
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -126,9 +127,36 @@ const MobileMenu = styled.ul`
   z-index: ${({ isOpen }) => (isOpen ? "1000" : "-1000")};
 `;
 
+const StarContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 8px;  /* Space between the icon and the text */
+  cursor: pointer;
+  /* Adding a transition effect for hover */
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: ${({ theme }) => theme.primary}; /* Change the color on hover */
+  }
+
+ & > span {
+    font-family: 'Roboto', sans-serif; /* Apply the custom font */
+    font-weight: 600; /* Make the text bolder */
+    font-size: 16px; /* Optional: Adjust the font size */
+    transition: all 0.3s ease;
+  }
+
+  &:hover > span {
+    color: ${({ theme }) => theme.primary}; /* Change text color on hover */
+  }
+`;
+
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
+
+
   return (
     <Nav>
       <NavbarContainer>
@@ -145,6 +173,17 @@ const Navbar = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
           <NavLink href="#Training">Trainings</NavLink>
+
+          <a
+            href="https://www.linkedin.com/in/suraj-chowdhury/details/certifications/" // Replace with your LinkedIn certificate link
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <StarContainer>
+              <FaStar size={21} /> {/* Star icon */}
+              <span>Verified Skills</span> {/* Text */}
+            </StarContainer>
+          </a>
 
         </NavItems>
 
