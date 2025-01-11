@@ -298,120 +298,7 @@ export const training = [
 
 export const projects = [
   {
-    id: 11,
-    title: "Chat App- Using Socket IO",
-    date: "Mar 2024 - Apr 2024",
-    description:
-      "A asynchromus chat application like somehat Whatsapp apis work to Connect with Users and chat in realtime , gives notification user when joined and left the chat. Added a notif ringtone for new messages pop ups",
-    image:
-      "https://res.cloudinary.com/dvshmozwc/image/upload/v1734960531/1_lzsFVtTfsGuJwB70eAWFlw_yn6ndp.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "Node Js",
-      "Express Js",
-      "JavaScript",
-      "Socket IO",
-    ],
-    category: "web app",
-    github: "https://github.com/Surajchowdhury12/SCChatAppUsingSocketIO",
-    webapp: "https://github.com/Surajchowdhury12/SCChatAppUsingSocketIO",
-  },
-  {
-    id: 9,
-    title: " FoodNama ",
-    date: "Jun 2024 - Jul 2024",
-    description:
-      "FoodNama an app which consist of list of food options to be ordered by a customer , A customer can search and place an order for his favorite food which later can be added o his order list and also added a favorite list to reserve the food to order next time ",
-    image:
-      "https://res.cloudinary.com/dvshmozwc/image/upload/v1734960880/Screenshot_2024-12-23_190226_tddd2y.png",
-    tags: [
-      "CI/CD",
-      "React Js",
-      "MongoDb",
-      "Node Js",
-      "Express Js",
-      "Rest API",
-    ],
-    category: "web app",
-    github: "https://github.com/Surajchowdhury12/Foodnaama",
-    webapp: "https://surajchowdhury12.github.io/Foodnaama/",
-  },
-  {
-    id: 0,
-    title: "IMDB Clone",
-    date: "July 2024 -  Aug 2024",
-    description:
-      "Developed a IMDB Clone using HTML, CSS, JavaScript and Tailwind CSS for designs. The application uses OMDB API to fetch the movie details and display it to the user based on the user inputs.",
-    image:
-      "https://res.cloudinary.com/dvshmozwc/image/upload/v1734972937/Screenshot_2024-12-23_222334_j91liu.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
-    category: "web app",
-    github: "https://github.com/Surajchowdhury12/IMDBproject27dec2023",
-    webapp: "https://surajchowdhury12.github.io/IMDBproject27dec2023/",
-  },
-  {
     id: 1,
-    title: " LambdaTest-Playwright",
-    date: "Aug 2024 - Sep 2024",
-    description:
-      "LambdaTest Automation consisting a framework which is build upon a Javascript and created a Test suits in Playweright and used docker GitLab and Git Actions to utilize the test cases and run it in different environments through containers caller docker container and have integrated to CI CD pipelines to remotely work and deploy the fixtures and newly automated Test scripts ",
-    image:
-      "https://res.cloudinary.com/dvshmozwc/image/upload/v1734976837/download_2_mtunoq.jpg",
-    tags: [
-      "CI/CD",
-      "GitLab",
-      "Docker",
-      "Node Js",
-      "Git Actions",
-      "Playwright",
-    ],
-    category: "automation",
-    github: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
-    webapp: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
-  },
-  {
-    id: 2,
-    title: " Cucumber BDD Framework",
-    date: "Sep 2024 - Oct 2024",
-    description:
-      "Cucumber is an optimized framework used to write Test scripts and mainatain test framework in Gherkin language with the help of feature file its easy and sustainable code which can be understood by a non programmer utilized it to create test cases in playwright ",
-    image:
-      "https://res.cloudinary.com/dvshmozwc/image/upload/v1734977186/download_3_pxupco.jpg",
-    tags: [
-      "CI/CD",
-      "Github",
-      "Cucumber",
-      "Node Js",
-      "Git Actions",
-      "Playwright",
-    ],
-    category: "frameworks",
-    github: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
-    webapp: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
-  },
-  {
-    id: 2,
-    title: " Mocha Framework",
-    date: "Oct 2024 - Nov 2024",
-    description:
-      "Utilized mocha framework with chai libraries to create a framework which we used to mainatain the Test cases and performed various actions to validate authentictiy and correctness of the page used to handle the complex data sets ",
-    image:
-      "https://res.cloudinary.com/dvshmozwc/image/upload/v1735015821/download_12_laonpg.png",
-    tags: [
-      "CI/CD",
-      "Github",
-      "Mocha",
-      "Node Js",
-      "Git Actions",
-      "Chai",
-    ],
-    category: "frameworks",
-    github: "https://github.com/Surajchowdhury12/",
-    webapp: "https://github.com/Surajchowdhury12/",
-  },
-  {
-    id: 3,
     title: " Food Delivery App - MERN",
     date: "Nov 2024 - Dec 2024",
     description:
@@ -431,6 +318,120 @@ export const projects = [
     github: "https://github.com/Surajchowdhury12/FoodDelivery-MERN",
     webapp: "https://github.com/Surajchowdhury12/FoodDelivery-MERN",
   },
+  {
+    id: 2,
+    title: "Chat App- Using Socket IO",
+    date: "Mar 2024 - Apr 2024",
+    description:
+      "A asynchromus chat application like somehat Whatsapp apis work to Connect with Users and chat in realtime , gives notification user when joined and left the chat. Added a notif ringtone for new messages pop ups",
+    image:
+      "https://res.cloudinary.com/dvshmozwc/image/upload/v1734960531/1_lzsFVtTfsGuJwB70eAWFlw_yn6ndp.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "Node Js",
+      "Express Js",
+      "JavaScript",
+      "Socket IO",
+    ],
+    category: "web app",
+    github: "https://github.com/Surajchowdhury12/SCChatAppUsingSocketIO",
+    webapp: "https://github.com/Surajchowdhury12/SCChatAppUsingSocketIO",
+  },
+  {
+    id: 3,
+    title: " FoodNama ",
+    date: "Jun 2024 - Jul 2024",
+    description:
+      "FoodNama an app which consist of list of food options to be ordered by a customer , A customer can search and place an order for his favorite food which later can be added o his order list and also added a favorite list to reserve the food to order next time ",
+    image:
+      "https://res.cloudinary.com/dvshmozwc/image/upload/v1734960880/Screenshot_2024-12-23_190226_tddd2y.png",
+    tags: [
+      "CI/CD",
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Rest API",
+    ],
+    category: "web app",
+    github: "https://github.com/Surajchowdhury12/Foodnaama",
+    webapp: "https://surajchowdhury12.github.io/Foodnaama/",
+  },
+  {
+    id: 4,
+    title: "IMDB Clone",
+    date: "July 2024 -  Aug 2024",
+    description:
+      "Developed a IMDB Clone using HTML, CSS, JavaScript and Tailwind CSS for designs. The application uses OMDB API to fetch the movie details and display it to the user based on the user inputs.",
+    image:
+      "https://res.cloudinary.com/dvshmozwc/image/upload/v1734972937/Screenshot_2024-12-23_222334_j91liu.png",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
+    category: "web app",
+    github: "https://github.com/Surajchowdhury12/IMDBproject27dec2023",
+    webapp: "https://surajchowdhury12.github.io/IMDBproject27dec2023/",
+  },
+  {
+    id: 5,
+    title: " LambdaTest-Playwright",
+    date: "Aug 2024 - Sep 2024",
+    description:
+      "LambdaTest Automation consisting a framework which is build upon a Javascript and created a Test suits in Playweright and used docker GitLab and Git Actions to utilize the test cases and run it in different environments through containers caller docker container and have integrated to CI CD pipelines to remotely work and deploy the fixtures and newly automated Test scripts ",
+    image:
+      "https://res.cloudinary.com/dvshmozwc/image/upload/v1734976837/download_2_mtunoq.jpg",
+    tags: [
+      "CI/CD",
+      "GitLab",
+      "Docker",
+      "Node Js",
+      "Git Actions",
+      "Playwright",
+    ],
+    category: "automation",
+    github: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
+    webapp: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
+  },
+  {
+    id: 6,
+    title: " Cucumber BDD Framework",
+    date: "Sep 2024 - Oct 2024",
+    description:
+      "Cucumber is an optimized framework used to write Test scripts and mainatain test framework in Gherkin language with the help of feature file its easy and sustainable code which can be understood by a non programmer utilized it to create test cases in playwright ",
+    image:
+      "https://res.cloudinary.com/dvshmozwc/image/upload/v1734977186/download_3_pxupco.jpg",
+    tags: [
+      "CI/CD",
+      "Github",
+      "Cucumber",
+      "Node Js",
+      "Git Actions",
+      "Playwright",
+    ],
+    category: "frameworks",
+    github: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
+    webapp: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
+  },
+  {
+    id: 7,
+    title: " Mocha Framework",
+    date: "Oct 2024 - Nov 2024",
+    description:
+      "Utilized mocha framework with chai libraries to create a framework which we used to mainatain the Test cases and performed various actions to validate authentictiy and correctness of the page used to handle the complex data sets ",
+    image:
+      "https://res.cloudinary.com/dvshmozwc/image/upload/v1735015821/download_12_laonpg.png",
+    tags: [
+      "CI/CD",
+      "Github",
+      "Mocha",
+      "Node Js",
+      "Git Actions",
+      "Chai",
+    ],
+    category: "frameworks",
+    github: "https://github.com/Surajchowdhury12/",
+    webapp: "https://github.com/Surajchowdhury12/",
+  },
+
 
 ];
 
