@@ -263,7 +263,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://res.cloudinary.com/dvshmozwc/image/upload/v1734957431/ltim1_penqgq.jpg",
+    img: "https://companieslogo.com/img/orig/WKL.AS-4fb51e0c.png?t=1720244494",
     role: "Senior Product Software Engineer",
     company: "Wolters Kluwer",
     date: "Jan 2024 - Present",
