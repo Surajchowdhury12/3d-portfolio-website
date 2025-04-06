@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Suraj Chowdhury",
   roles: [
-    "Senior Test Automation Engineer",
+    "Senior Product Software Engineer",
     "Full Stack Developer",
     "Software Development Engineer in Test",
   ],
@@ -118,6 +118,11 @@ export const skills = [
         image:
           "https://res.cloudinary.com/dvshmozwc/image/upload/v1734975985/download_11_hvqkcs.png",
       },
+      {
+        name: "Bamboo",
+        image:
+          "https://framerusercontent.com/images/gGLnqjE5xWSUGmAeN5KFL1NRCug.png",
+      },
     ],
   },
   {
@@ -178,6 +183,11 @@ export const skills = [
         image:
           "https://res.cloudinary.com/dvshmozwc/image/upload/v1734975780/download_9_u8puqh.png",
       },
+      {
+        name: "CodeceptJS",
+        image:
+          "https://codecept.io/logo.svg",
+      },
     ],
   },
   {
@@ -192,6 +202,11 @@ export const skills = [
         name: "GitHub",
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "Bitbucket",
+        image:
+          "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/44_Bitbucket_logo_logos-1024.png",
       },
       {
         name: "Netlify",
@@ -211,12 +226,17 @@ export const skills = [
       {
         name: "Adobe XD",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
+          "https://cdn.freebiesupply.com/logos/large/2x/adobe-xd-logo-png-transparent.png",
       },
       {
         name: "Figma",
         image:
           "https://s3-alpha.figma.com/hub/file/1481185752/fa4cd070-6a79-4e1b-b079-8b9b76408595-cover.png",
+      },
+      {
+        name: "Jira",
+        image:
+          "https://cdn.iconscout.com/icon/free/png-512/free-jira-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-1-pack-logos-icons-3030001.png?f=webp&w=512",
       },
     ],
   },
@@ -228,12 +248,35 @@ export const experiences = [
     img: "https://res.cloudinary.com/dvshmozwc/image/upload/v1734957431/ltim1_penqgq.jpg",
     role: "Senior Software Engineer",
     company: "LTIMindtree",
-    date: "Nov2019 - Present",
+    date: "Nov 2019 - Jan 2024",
     desc: "Expertise in engagging with Microsoft Cliet and working in developing and automating different Applications. Designed end-to-end test suites for web applications using Playwright JavaScript, Typescript. identifying critical bugs before production. Increased Test coverage by 40% and Test efficency by 30 % and  Integrated automated tests into Azure DevOps CI/CD pipelines,resulting in earlier issue detection and reduced deployment time by 40%",
     skills: [
       "Playwright",
       "Azure CI/CD",
       "NodeJs",
+      "Git",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Typescript",
+    ],
+  },
+  {
+    id: 1,
+    img: "https://res.cloudinary.com/dvshmozwc/image/upload/v1734957431/ltim1_penqgq.jpg",
+    role: "Senior Product Software Engineer",
+    company: "Wolters Kluwer",
+    date: "Jan 2024 - Present",
+    desc: "Development and enhancement of high-impact products, contributing to the design, architecture, and implementation of scalable software solutions. Development of dynamic, responsive, and user-centric applications.",
+    skills: [
+      "Playwright",
+      "CodeceptJS",
+      "Cucumber",
+      "Jest",
+      "ReactJS",
+      "ExpressJS",
+      "NodeJs",
+      "Bamboo",
       "Git",
       "HTML",
       "CSS",
@@ -299,6 +342,26 @@ export const training = [
 export const projects = [
   {
     id: 1,
+    title: " Connectly",
+    date: "Jan 2025 - Apr 2025",
+    description:
+      "Connectly is a modern social networking app built with React JS, designed to bring people together in a seamless and engaging way. Whether you're connecting with friends, sharing life updates, or discovering new communities, Connectly offers a dynamic, user-friendly experience that feels like home.",
+    image:
+      "https://res.cloudinary.com/dvshmozwc/image/upload/v1743919972/connectly_gbkjz6.png",
+    tags: [
+      "CI/CD",
+      "Express JS",
+      "JavaScript",
+      "Node Js",
+      "Git Actions",
+      "React JS",
+    ],
+    category: "web app",
+    github: "https://github.com/Surajchowdhury12/Connectly_SocialMediaApp",
+    webapp: "https://github.com/Surajchowdhury12/",
+  },
+  {
+    id: 2,
     title: " Food Delivery App - MERN",
     date: "Nov 2024 - Dec 2024",
     description:
@@ -319,7 +382,7 @@ export const projects = [
     webapp: "https://github.com/Surajchowdhury12/FoodDelivery-MERN",
   },
   {
-    id: 2,
+    id: 3,
     title: "Chat App- Using Socket IO",
     date: "Mar 2024 - Apr 2024",
     description:
@@ -339,7 +402,7 @@ export const projects = [
     webapp: "https://github.com/Surajchowdhury12/SCChatAppUsingSocketIO",
   },
   {
-    id: 3,
+    id: 4,
     title: " FoodNama ",
     date: "Jun 2024 - Jul 2024",
     description:
@@ -359,7 +422,7 @@ export const projects = [
     webapp: "https://surajchowdhury12.github.io/Foodnaama/",
   },
   {
-    id: 4,
+    id: 5,
     title: "IMDB Clone",
     date: "July 2024 -  Aug 2024",
     description:
@@ -372,7 +435,7 @@ export const projects = [
     webapp: "https://surajchowdhury12.github.io/IMDBproject27dec2023/",
   },
   {
-    id: 5,
+    id: 6,
     title: " LambdaTest-Playwright",
     date: "Aug 2024 - Sep 2024",
     description:
@@ -392,7 +455,7 @@ export const projects = [
     webapp: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
   },
   {
-    id: 6,
+    id: 7,
     title: " Cucumber BDD Framework",
     date: "Sep 2024 - Oct 2024",
     description:
@@ -412,7 +475,7 @@ export const projects = [
     webapp: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
   },
   {
-    id: 7,
+    id: 8,
     title: " Mocha Framework",
     date: "Oct 2024 - Nov 2024",
     description:
@@ -432,6 +495,6 @@ export const projects = [
     webapp: "https://github.com/Surajchowdhury12/",
   },
 
-
 ];
+
 
