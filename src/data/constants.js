@@ -342,6 +342,29 @@ export const training = [
 export const projects = [
   {
     id: 1,
+    title: "Podmint",
+    date: "Jul 2025 - Sep 2025",
+    description:
+      "Podmint is a AI cutting-edge podcast platform that allows users to create, share, and discover podcasts with ease. Built with React JS, Podmint offers a sleek and intuitive interface for both podcast creators and listeners, making it the go-to destination for all things podcasting.",
+    image:
+      "https://res.cloudinary.com/dvshmozwc/image/upload/v1754750572/PODMINT-UI_jifqqb.png",
+    tags: [
+      "React JS",
+      "Vite",
+      "Tailwind CSS",
+      "Node Js",
+      "OLLAMA",
+      "OpenAI",
+      "Express JS",
+      "MongoDB",
+      "google tts",
+    ],
+    category: "web app",
+    github: "https://github.com/Surajchowdhury12/podmint",
+    webapp: "https://github.com/Surajchowdhury12/",
+  },
+  {
+    id: 2,
     title: " Connectly",
     date: "Jan 2025 - Apr 2025",
     description:
@@ -361,7 +384,7 @@ export const projects = [
     webapp: "https://github.com/Surajchowdhury12/",
   },
   {
-    id: 2,
+    id: 3,
     title: " Food Delivery App - MERN",
     date: "Nov 2024 - Dec 2024",
     description:
@@ -382,7 +405,7 @@ export const projects = [
     webapp: "https://github.com/Surajchowdhury12/FoodDelivery-MERN",
   },
   {
-    id: 3,
+    id: 4,
     title: "Chat App- Using Socket IO",
     date: "Mar 2024 - Apr 2024",
     description:
@@ -402,7 +425,7 @@ export const projects = [
     webapp: "https://github.com/Surajchowdhury12/SCChatAppUsingSocketIO",
   },
   {
-    id: 4,
+    id: 5,
     title: " FoodNama ",
     date: "Jun 2024 - Jul 2024",
     description:
@@ -422,7 +445,7 @@ export const projects = [
     webapp: "https://surajchowdhury12.github.io/Foodnaama/",
   },
   {
-    id: 5,
+    id: 6,
     title: "IMDB Clone",
     date: "July 2024 -  Aug 2024",
     description:
@@ -435,7 +458,7 @@ export const projects = [
     webapp: "https://surajchowdhury12.github.io/IMDBproject27dec2023/",
   },
   {
-    id: 6,
+    id: 7,
     title: " LambdaTest-Playwright",
     date: "Aug 2024 - Sep 2024",
     description:
@@ -455,7 +478,7 @@ export const projects = [
     webapp: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
   },
   {
-    id: 7,
+    id: 8,
     title: " Cucumber BDD Framework",
     date: "Sep 2024 - Oct 2024",
     description:
@@ -475,7 +498,7 @@ export const projects = [
     webapp: "https://github.com/Surajchowdhury12/LamdaTest-Playwright",
   },
   {
-    id: 8,
+    id: 9,
     title: " Mocha Framework",
     date: "Oct 2024 - Nov 2024",
     description:
